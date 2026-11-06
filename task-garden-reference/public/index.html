@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Task Garden — Demo end product</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header class="demo-bar"><span class="demo-label"><span class="dot" aria-hidden="true"></span> DEMO END PRODUCT</span><span>A separate website, developed through a Cohandry workflow</span></header>
+<main>
+<section class="intro" aria-labelledby="garden-title">
+<div class="wordmark"><span aria-hidden="true">✳</span> Task Garden</div>
+<p class="eyebrow">A LITTLE FOCUS GOES A LONG WAY</p>
+<h1 id="garden-title">Make room<br>for what<br><em>matters.</em></h1>
+<p class="description">A small place to grow a manageable day. Pick your priorities. Take one thing at a time.</p>
+<div class="feature-note"><span aria-hidden="true">↗</span><div><strong>The feature our agents added</strong><p>High-priority tasks, priority filtering, and saved priorities after reload.</p></div></div>
+<p class="context-note">You’re looking at the finished example website.<br>Cohandry is the desktop app used to coordinate the work.</p>
+</section>
+<section class="task-panel" aria-labelledby="today-title">
+<div class="panel-heading"><div><p class="eyebrow">LESS NOISE. MORE PROGRESS.</p><h2 id="today-title">Your little list.</h2></div><span class="sun" aria-hidden="true">✳</span></div>
+<form id="add-form"><label for="title">What needs doing?</label><div class="row"><input id="title" maxlength="80" placeholder="Add something worth doing…" required><button class="add-button">Add task <span aria-hidden="true">+</span></button></div><label for="high-priority" class="checkbox-label"><input id="high-priority" type="checkbox">Make this a high priority</label></form>
+<p id="notice" role="status"></p>
+<div class="list-heading"><label for="filter">Find your focus</label><select id="filter"><option value="all">All tasks</option><option value="active">Active</option><option value="completed">Completed</option><option value="high">High priority</option></select></div>
+<ul id="tasks" aria-label="Your tasks"></ul>
+<div class="panel-footer"><p id="count"></p><button id="reset" class="secondary">Reset practice data</button></div>
+<p class="hint">Saved on this browser. A practice project, just for the demo.</p>
+</section>
+</main>
+<footer class="page-footer">TASK GARDEN <span>Small steps. A little more space.</span></footer>
+<script type="module" src="/app.js"></script>
+</body></html>

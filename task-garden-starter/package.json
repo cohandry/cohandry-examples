@@ -1,0 +1,14 @@
+{
+  "name": "task-garden-tutorial",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/tasks.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
