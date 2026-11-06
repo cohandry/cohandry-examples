@@ -36,3 +36,7 @@ The reference is not the tutorial starting point. Its priority feature is alread
 Issues and pull requests are welcome for example corrections. This repository is the initial official example collection, not yet an in-app template marketplace. Template-package import/export and community library submissions are tracked separately. Do not submit credentials, personal data or private project files.
 
 MIT licensed; see [LICENSE](LICENSE).
+
+## Official and community templates
+
+Browse [template files and contribution instructions](templates/README.md). Share reusable project teams or individual agent instructions through a community submission or pull request. The website library distinguishes official and community authors.

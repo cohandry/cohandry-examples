@@ -1,0 +1,17 @@
+name: Library report
+description: Report a broken template, attribution problem or unsafe content.
+title: "[Library report] "
+body:
+  - type: input
+    id: template
+    attributes:
+      label: Template name or URL
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: What needs attention?
+      description: Describe the problem without posting secrets or private project data.
+    validations:
+      required: true
