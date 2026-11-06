@@ -1,5 +1,5 @@
 """Deterministic public practice ZIPs; no account files, generated data or symlinks."""
-import hashlib,json,pathlib,sys,zipfile
+import hashlib,json,pathlib,subprocess,sys,zipfile
 root=pathlib.Path(__file__).resolve().parent.parent
 out=pathlib.Path(sys.argv[1]).resolve() if len(sys.argv)>1 else root/'work/practice-kits';out.mkdir(parents=True,exist_ok=True)
 manifest=[]
@@ -7,8 +7,9 @@ for p in json.loads((root/'practice/catalog.json').read_text())['packs']:
  assert p['id'].replace('-','').isalnum()
  folder=root/'practice'/p['id'];name=f"Cohandry-{p['id']}-{p['version']}.zip";target=out/name
  with zipfile.ZipFile(target,'w',zipfile.ZIP_DEFLATED) as z:
-  for file in sorted(folder.rglob('*')):
-   rel=file.relative_to(folder)
+  tracked=subprocess.check_output(['git','ls-files','-z','--',str(folder.relative_to(root))],cwd=root).decode().split('\0')
+  for name_in_tree in sorted(n for n in tracked if n):
+   file=root/name_in_tree;rel=file.relative_to(folder)
    if '__pycache__' in rel.parts:continue
    if file.is_symlink():raise ValueError('No symlinks in practice packs')
    if not file.is_file():continue
