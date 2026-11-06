@@ -1,0 +1,37 @@
+name: Community template
+description: Submit a reusable project team or agent template for review.
+title: "[Template] "
+body:
+  - type: markdown
+    attributes:
+      value: "Submissions are public. Remove secrets and private material. A maintainer must review your template before it appears in the library."
+  - type: input
+    id: source
+    attributes:
+      label: Public template source URL
+      description: Link to the JSON file in your repository or a pull request here.
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose, author, version and license
+      description: What does it help people do, who made it, and under which license?
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements and import test
+      description: Model/tool requirements, steps tested in a new paused project, expected result and limitations.
+    validations:
+      required: true
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: Sharing permission
+      options:
+        - label: I have permission to share all included text and sources under the stated license.
+          required: true
+        - label: I inspected the file and removed credentials, private data and runtime permissions.
+          required: true
