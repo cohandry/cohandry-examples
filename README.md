@@ -9,14 +9,14 @@ Public practice projects for [Cohandry](https://cohandry.com). Browse, clone or 
 | Starter | Working task list with eight baseline tests. Follow the tutorial to add priorities. | [task-garden-starter](task-garden-starter/) |
 | Completed reference | Priority checkbox, badges, filter and persistence, plus a distinct cream/orange presentation. Twelve tests. Compare after your own attempt. | [task-garden-reference](task-garden-reference/) |
 
-[Download starter ZIP](https://github.com/quinlayen/cohandry-examples/releases/download/examples-v1.0.0/Task-Garden-Starter.zip) · [Download reference ZIP](https://github.com/quinlayen/cohandry-examples/releases/download/examples-v1.0.0/Task-Garden-Reference.zip) · [Guided project walkthrough](https://cohandry.com/tutorial/) · [Learn](https://cohandry.com/learn/)
+[Download starter ZIP](https://github.com/cohandry/cohandry-examples/releases/download/examples-v1.0.0/Task-Garden-Starter.zip) · [Download reference ZIP](https://github.com/cohandry/cohandry-examples/releases/download/examples-v1.0.0/Task-Garden-Reference.zip) · [Guided project walkthrough](https://cohandry.com/tutorial/) · [Learn](https://cohandry.com/learn/)
 
 ## Clone and run
 
 Requires Node 24+. No dependencies to install.
 
 ```sh
-git clone https://github.com/quinlayen/cohandry-examples.git
+git clone https://github.com/cohandry/cohandry-examples.git
 cd cohandry-examples/task-garden-starter
 npm test
 npm run check

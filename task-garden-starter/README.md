@@ -14,6 +14,6 @@ This is a development exercise, not a hosted service. No authentication, sync, d
 
 ## Get the files and walkthrough
 
-[Guided walkthrough](https://cohandry.com/tutorial/) · [Learn](https://cohandry.com/learn/) · [Public source](https://github.com/quinlayen/cohandry-examples/tree/main/task-garden-starter) · [Download starter ZIP](https://github.com/quinlayen/cohandry-examples/releases/download/examples-v1.0.0/Task-Garden-Starter.zip)
+[Guided walkthrough](https://cohandry.com/tutorial/) · [Learn](https://cohandry.com/learn/) · [Public source](https://github.com/cohandry/cohandry-examples/tree/main/task-garden-starter) · [Download starter ZIP](https://github.com/cohandry/cohandry-examples/releases/download/examples-v1.0.0/Task-Garden-Starter.zip)
 
 No Cohandry website sign-in is needed for these example files. To use your own GitHub delivery workflow, copy this folder's contents into the root of your own repository as described in the walkthrough. A completed reference lives separately in `task-garden-reference`; do not use it as the exercise starting point.
