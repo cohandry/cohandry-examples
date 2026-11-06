@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "packs": [
+    {
+      "id": "bug-investigation",
+      "name": "Bug investigation team",
+      "category": "Coding",
+      "sample": "Checkout quantity bug",
+      "version": "1.0.0",
+      "starter": true,
+      "baseline": "From starter/: python3 -m unittest -v. The supplied quantity test intentionally fails before the fix; the other two pass."
+    },
+    {
+      "id": "website-launch",
+      "name": "Website launch team",
+      "category": "Web",
+      "sample": "Harbor Makers event",
+      "version": "1.0.0",
+      "starter": true,
+      "baseline": "From starter/: python3 -m http.server 4311 --bind 127.0.0.1, then open http://127.0.0.1:4311. Stop with Ctrl-C. This manual preview is not an automated UI test."
+    },
+    {
+      "id": "codebase-onboarding",
+      "name": "Codebase onboarding team",
+      "category": "Coding",
+      "sample": "Pocket Notes CLI",
+      "version": "1.0.0",
+      "starter": true,
+      "baseline": "From starter/: python3 -m unittest -v. For a disposable example: python3 app.py --file demo-notes.json add \"Read the guide\" then python3 app.py --file demo-notes.json list. Delete only your practice file when finished."
+    },
+    {
+      "id": "python-automation",
+      "name": "Python automation team",
+      "category": "Automation",
+      "sample": "Expense summary CSV",
+      "version": "1.0.0",
+      "starter": true,
+      "baseline": "From starter/: python3 -m unittest -v. Some tests intentionally fail until summarize is implemented. After implementation: python3 summarize.py fixtures/expenses.csv. Use --output result.json only to create a new file."
+    },
+    {
+      "id": "game-prototype",
+      "name": "Game prototype team",
+      "category": "Games",
+      "sample": "Star Trail browser game",
+      "version": "1.0.0",
+      "starter": true,
+      "baseline": "From starter/: node --test. To play: python3 -m http.server 4312 --bind 127.0.0.1 and open http://127.0.0.1:4312. Stop the server with Ctrl-C. Baseline tests cover movement only; collection is your task."
+    },
+    {
+      "id": "story-worldbuilding",
+      "name": "Story and worldbuilding team",
+      "category": "Creative",
+      "sample": "The Lantern at Low Tide",
+      "version": "1.0.0",
+      "starter": false,
+      "baseline": "No program needs to run. Import the template, inspect the shared sample sources and give the team the kickoff objective. A file tool is optional if you want deliverables written to disk."
+    }
+  ]
+}

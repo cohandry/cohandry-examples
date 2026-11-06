@@ -1,6 +1,6 @@
 # Cohandry examples
 
-Public practice projects for [Cohandry](https://cohandry.com). Browse, clone or download the examples without signing in to Cohandry. These are sample websites that you improve with the desktop app.
+Public practice projects for [Cohandry](https://cohandry.com). Browse, clone or download the examples without signing in to Cohandry. The collection includes sample websites, Python programs, a browser game and a writing exercise to try with the desktop app.
 
 ## Task Garden
 
@@ -33,10 +33,14 @@ The reference is not the tutorial starting point. Its priority feature is alread
 
 ## Contributions and sharing
 
-Issues and pull requests are welcome for example corrections. This repository is the initial official example collection, not yet an in-app template marketplace. Template-package import/export and community library submissions are tracked separately. Do not submit credentials, personal data or private project files.
+Issues and pull requests are welcome for example corrections. Portable templates import into Cohandry 0.1.13 or later; community submissions are reviewed before listing in the public library. Do not submit credentials, personal data or private project files.
 
 MIT licensed; see [LICENSE](LICENSE).
 
 ## Official and community templates
 
 Browse [template files and contribution instructions](templates/README.md). Share reusable project teams or individual agent instructions through a community submission or pull request. The website library distinguishes official and community authors.
+
+## Six guided practice kits
+
+[Browse the practice kits](practice/README.md) for bug investigation, website launch, codebase onboarding, Python automation, game prototyping and story/worldbuilding. Each includes template JSON, original sample sources, starter files, a kickoff objective, expected outputs and acceptance checks. [Find public downloads in the library](https://cohandry.com/library/).

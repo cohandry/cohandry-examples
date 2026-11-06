@@ -1,0 +1,1 @@
+Document Pocket Notes CLI in starter/. Identify entry points, JSON persistence and test boundaries. Produce docs/GETTING-STARTED.md and docs/ARCHITECTURE.md plus one proposed first change. Do not implement that change or alter application behavior.

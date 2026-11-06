@@ -1,0 +1,5 @@
+- Scene stays in Mira’s close third-person perspective, between 17:40 and 18:00.
+- Established lantern, ferry and character-knowledge constraints are respected.
+- Draft is 800–1200 words; count and method are stated.
+- Continuity report cites source filenames/sections and distinguishes canon, inference and proposal.
+- No new canon is silently inserted; unresolved conflicts become owner questions.

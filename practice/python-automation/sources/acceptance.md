@@ -1,0 +1,5 @@
+- Office total is 4200 cents; Travel total is 6500 cents for expenses.csv.
+- Empty input produces an empty summary. Negative refunds reduce totals.
+- Duplicate IDs, missing category/ID and invalid integer amounts raise a clear error.
+- JSON category order is deterministic; no output path means stdout only.
+- Existing output files are never overwritten; input files remain unchanged.

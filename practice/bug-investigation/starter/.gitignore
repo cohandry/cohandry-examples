@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+notes.json
+demo-notes.json
+result.json
+node_modules/
+.env
+.DS_Store

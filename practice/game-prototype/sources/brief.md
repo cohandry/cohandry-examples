@@ -1,0 +1,1 @@
+Extend Star Trail in starter/ into a keyboard-playable collectible game. Move with arrow keys, collect each of five stars once, display score and a win state, and restart with a button. Keep canvas shapes and no external assets. No accounts, audio, network, engine integration or deployment.
