@@ -1,0 +1,1 @@
+Complete the Harbor Makers one-page event site using starter/ and sources/. Show the event details, schedule, location and a mailto RSVP. Use supplied fictional content. No signup backend, payment, analytics, external fonts or deployment.

@@ -1,0 +1,1 @@
+Complete summarize(rows) in starter/summarize.py for the supplied expense CSV. Sum integer cents by category, including negative refunds. Reject duplicate IDs and non-integer amounts. Default invocation previews JSON; --output writes a NEW file only. Preserve input bytes.

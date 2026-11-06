@@ -1,0 +1,1 @@
+Develop the opening scene of The Lantern at Low Tide from the original sample canon. Write 800–1200 words, a continuity report and up to three proposed world additions kept separate from established facts. This is a writing exercise, not an application build.

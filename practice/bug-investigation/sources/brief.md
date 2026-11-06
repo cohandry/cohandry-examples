@@ -1,0 +1,1 @@
+Fix Checkout quantity bug in starter/cart.py. The receipt ignores item quantities. Preserve the subtotal API and use integer cents. Start by running the provided failing regression. No tax, discounts, payments, dependencies or publishing.
