@@ -1,0 +1,4 @@
+# Review instruction changes and validation/publishing boundaries.
+/templates/ @quinlayen
+/scripts/template-security/ @quinlayen
+/.github/ @quinlayen
