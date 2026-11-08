@@ -1,5 +1,5 @@
 name: Community template
-description: Submit a reusable project team or agent template for review.
+description: Discuss a template contribution; a JSON pull request is required for security checks.
 title: "[Template] "
 body:
   - type: markdown
@@ -8,8 +8,8 @@ body:
   - type: input
     id: source
     attributes:
-      label: Public template source URL
-      description: Link to the JSON file in your repository or a pull request here.
+      label: Template pull request URL
+      description: Link to a pull request here adding templates/community/your-template.json. External links and issue attachments are not validated submissions.
     validations:
       required: true
   - type: textarea
