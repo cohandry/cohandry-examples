@@ -1,25 +1,23 @@
 # Bug investigation team: Checkout quantity bug
 
-Version 1.0.0 · Cohandry · MIT. All names, inputs and project material here are original fictional practice data.
+Practice kit 1.1.0 · Cohandry · MIT. Original fictional practice material.
 
-## What is included
-- `template.json`: reusable team instructions and shared sample source text. Import this file, not the ZIP.
-- `sources/`: human-readable copies of the references embedded in the template. **Do not upload duplicates after importing.** Edit or replace these sample records when adapting the project.
-- `starter/`: a deliberately small unfinished project or writing outline. Importing a template does **not** copy these files into your workspace.
-- `EXPECTED-OUTPUTS.md` and `ACCEPTANCE.md`: the goal and checks for your review.
+## Template or example?
+`template.json` contains only reusable team settings. It does not contain this example brief, source documents or starter files. Importing it never copies files into your project folder, installs tools, grants permissions or starts work. The separate example material is optional.
 
-## Try it in Cohandry
-1. Unzip the kit into a new practice folder. Use Cohandry 0.1.13 or later.
-2. Open **Templates → Project packs → Import template** and select `template.json`. Inspect roles and sources; importing creates a new paused project.
-3. Read the requirements below and connect your own model. For file work, select/copy `starter/` into a disposable working folder and configure its execution host and allowed tools. Importing grants no tool permissions.
-4. To practice Git delivery, create your own disposable repository containing the starter contents. Do not push changes to the public examples repository or copy its `.git` directory. Git is optional for the exercise itself.
-5. Read the brief and acceptance checks, then submit this objective:
+## Try this example in Cohandry
+1. Unzip this kit into a new disposable practice folder. Read `EXAMPLE-PROJECT.md`, `ACCEPTANCE.md` and `EXPECTED-OUTPUTS.md`.
+2. Open **Templates → Project packs → Import template**, choose `template.json`, inspect the team and use the project name from `EXAMPLE-PROJECT.md`. Create the paused project.
+3. Open **Project context → Edit context** and replace the generic brief with the **Project context** section of `EXAMPLE-PROJECT.md`. In **Instructions**, add the files in `sources/` as reference documents. They are not imported by the template.
+4. In **Settings → Project folder → Change folder**, choose the extracted `starter/` folder (or a disposable copy containing its contents). This is where file-reading and editing should happen. The folder is not the ZIP and is not the examples repository root.
+5. Connect your own model. Allow only the project commands and external tools this exercise needs. Check the prerequisites below.
+6. From **Overview → Give the team an objective**, paste the **Team objective** from `EXAMPLE-PROJECT.md`. Resume only when you are ready. Inspect requested commands before approving them.
+7. Review the actual output, test evidence and reviewer findings against `ACCEPTANCE.md`. Nothing is published automatically.
 
-> Reproduce the checkout quantity bug, explain its cause, fix it with the smallest patch and provide regression evidence. Use sources/brief.md and sources/acceptance.md. Do not add payment features.
+Git is optional. For Git delivery, create your own disposable repository from the starter contents; do not copy the public examples repository’s `.git` folder or push to it. A downloaded ZIP has no repository history.
 
-6. Review setup before resuming dispatch, and inspect proposed commands before approving them. Inspect actual output and acceptance evidence; model behavior is not guaranteed.
-
-## Requirements
+## Prerequisites for this example
+- Cohandry 0.1.13 or later and your own supported model connection.
 - Python 3.10+ and a configured local execution host to run the practice tests.
 - Git is optional; a repository connection is needed only if you want task branches and a PR.
 
@@ -30,5 +28,5 @@ From starter/: python3 -m unittest -v. The supplied quantity test intentionally 
 
 Only run local preview servers when needed and stop them afterward. Never use private inputs for the first practice run.
 
-## Adapt it
-Replace the sample project brief and shared source records with your own. Keep the role responsibilities and acceptance criteria that fit; remove sample-specific constraints. The template is not tied to a particular model or engine.
+## Use the template for your own project
+Download only the reusable template JSON from the library, import it, supply your own project context and folder, and connect your own references and tools. Do not upload the example sources unless you want this exercise.
