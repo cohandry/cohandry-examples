@@ -7,7 +7,10 @@ for p in packs:
  folder=root/'practice'/p['id'];template=json.loads((folder/'template.json').read_text())
  assert (folder/'template.json').read_bytes()==(root/'templates/official'/f"{p['id']}.json").read_bytes()
  assert len(template['agents'])==3
- for s in template['sources']:assert (folder/'sources'/s['name']).read_text()==s['content']
+ assert template['sources']==[], 'Reusable template must not embed example sources'
+ assert p['sample'] not in template['project']['name']
+ assert (folder/'EXAMPLE-PROJECT.md').is_file()
+ assert 'Project context' in (folder/'EXAMPLE-PROJECT.md').read_text()
  for name in ['README.md','EXPECTED-OUTPUTS.md','ACCEPTANCE.md','LICENSE']:assert (folder/name).stat().st_size>100
  assert (folder/'starter').is_dir()
  def run(args):return subprocess.run(args,cwd=folder/'starter',capture_output=True,text=True,timeout=30)

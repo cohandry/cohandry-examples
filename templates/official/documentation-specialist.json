@@ -6,7 +6,7 @@
     "name": "Documentation specialist",
     "description": "A focused role for clear, accurate user documentation.",
     "author": "Cohandry",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT"
   },
   "project": {
@@ -26,7 +26,8 @@
   ],
   "sources": [],
   "requirements": [
-    "Connect your own supported model.",
-    "Supply current product documentation or repository sources."
+    "Cohandry 0.1.13 or later and your own supported model connection.",
+    "Choose your own project folder and describe your objective before starting.",
+    "Configure the tools and project commands required by your project. A template does not install tools, supply files or grant access."
   ]
 }

@@ -6,7 +6,7 @@
     "name": "Software delivery team",
     "description": "Plan one software increment, implement it and review the evidence.",
     "author": "Cohandry",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT"
   },
   "project": {
@@ -48,8 +48,8 @@
   ],
   "sources": [],
   "requirements": [
-    "Connect your own supported model.",
-    "Configure any required execution host and tools.",
-    "Edit the project context for your actual project."
+    "Cohandry 0.1.13 or later and your own supported model connection.",
+    "Choose your own project folder and describe your objective before starting.",
+    "Configure the tools and project commands required by your project. A template does not install tools, supply files or grant access."
   ]
 }
